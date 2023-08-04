@@ -38,8 +38,8 @@ const Register = () => {
   };
 
   return (
-    <Layout title="Register - Ecommer App">
-      <div className="form-container ">
+    <Layout title="Register - Ecommerce App">
+      <div className="form-container " >
         <form onSubmit={handleSubmit}>
           <h4 className="title">REGISTER FORM</h4>
           <div className="mb-3">
@@ -82,7 +82,7 @@ const Register = () => {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               className="form-control"
-              id="exampleInputEmail1"
+              id="exampleInputtext1"
               placeholder="Enter Your Phone"
               required
             />
@@ -93,7 +93,7 @@ const Register = () => {
               value={address}
               onChange={(e) => setAddress(e.target.value)}
               className="form-control"
-              id="exampleInputEmail1"
+              id="exampleInputaddress1"
               placeholder="Enter Your Address"
               required
             />
@@ -104,7 +104,7 @@ const Register = () => {
               value={answer}
               onChange={(e) => setAnswer(e.target.value)}
               className="form-control"
-              id="exampleInputEmail1"
+              id="exampleInputanswer1"
               placeholder="Your Favourite Sports"
               required
             />

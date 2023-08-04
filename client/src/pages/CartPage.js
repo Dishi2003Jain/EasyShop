@@ -107,7 +107,7 @@ const CartPage = () => {
                       className="card-img-top"
                       alt={p.name}
                       width="100%"
-                      height={"130px"}
+                      height={"150px"}
                     />
                   </div>
                   <div className="col-md-4">
